@@ -139,16 +139,16 @@ describe('Family Tree', () => {
 
       const mikesFamily = szwajkowskis.findMember('Mike');
 
-      mikesFamily.insert('Eliot');
-      mikesFamily.insert('Elise');
-      mikesFamily.insert('Cas');
-      mikesFamily.insert('George');
-      mikesFamily.insert('Lear');
+         mikesFamily.insert('Eliot');
+         mikesFamily.insert('Elise');
+         mikesFamily.insert('Cas');
+         mikesFamily.insert('George');
+         mikesFamily.insert('Lear');
 
       const amysFamily = szwajkowskis.findMember('Amy');
 
-      amysFamily.insert('Henry');
-      amysFamily.insert('Vivian');
+       amysFamily.insert('Henry');
+       amysFamily.insert('Vivian');
 
       const log = szwajkowskis.log();
 
