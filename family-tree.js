@@ -31,10 +31,10 @@ class FamilyTree {
       str += `${dashes} ${obj.value}\n`;
       if (obj.children.length > 0) {
         dashes += '--';
-        obj.children.forEach(val => {
-          str = helper(val);
+        obj.children.forEach(childObj => {
+          str = helper(childObj);
         });
-        dashes = dashes.slice(0, 4);
+        dashes = dashes.slice(0, dashes.length - 2);
       }
       return str;
     }
